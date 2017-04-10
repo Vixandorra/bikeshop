@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f3f3f3;
+    width: auto;
+    min-height: 2050px;
+}
+

@@ -1,0 +1,240 @@
+html, body {
+    font: normal 100%  "Lato-light", "Font-awesome", "Lato-regular", "Lato-light-italic", "Lato-bold-italic", "Lato-bold", Calibri, Candara, sans-serif;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+#page {
+    width: 100%;
+    height: auto;
+}
+
+
+@supports (display: grid) {
+    .grid {
+        display: grid;
+    }
+}
+
+.lg-grid {
+    display: flex;
+    width: 97.60416666666667%;
+    margin: 0 auto;
+}
+
+.md-grid {
+    display: flex;
+    width: 59.48452508004269%;
+    margin: 0 auto;
+}
+
+.red_color {
+    color: #f10e34;
+}
+
+.green {
+    color: #fcff19;
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url("../static/font/LatoLight/LatoLight.ttf");
+}
+
+@font-face {
+    font-family: "Lato-regular";
+    src: url("../static/font/LatoRegular/LatoRegular.ttf");
+}
+
+@font-face {
+    font-family: "Lato-bold";
+    src: url("../static/font/LatoBold/LatoBold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-bold-italic";
+    src: url("../static/font/LatoBoldItalic/LatoBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Lato-light-italic";
+    src: url("../static/font/LatoBoldItalic/LatoLightItalic.ttf");
+}
+
+
+@font-face {
+    font-family: "Font-awesome";
+    src: url("../static/font/font awesome/font_awesome/fontawesome-webfont.ttf");
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+}
+
+i {
+    font-family: "Lato-light-italic";
+}
+
+.bold i {
+    font-family: "Lato-bold-italic";
+}
+
+a:hover {
+    cursor: hand;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-family: "Lato-bold";
+    font-weight: bold;
+}
+
+.regular {
+    font-family: "Lato-regular" ;
+    font-weight: lighter;
+}
+
+.white {
+    color: white;
+}
+
+.orange_text {
+    color: #dd4b2b;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 63.88760%;
+    background: transparent;
+    margin: 0 auto;
+}
+
+
+.container_80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container_80 {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.container_75 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container_70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container_70 {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.container_60 {
+     width: 67%;
+    margin: 0 auto;
+ }
+
+.container_50 {
+    width: 46.5%;
+}
+
+@media screen and (max-width: 768px) {
+    .container_50 {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+.container_50_const {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container_50_const {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+
+.button {
+
+    height: 40px;
+    margin: 0 auto;
+}
+
+.btn-default {
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.center-block {
+    float: none;
+    display: block;
+}
+
+@media screen and (min-width: 2200px) {
+    .col-lg-8, .col-lg-9 {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 2600px) {
+    .col-lg-8, .col-lg-9 {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 3100px) {
+    .col-lg-8, .col-lg-9 {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header .button .btn-default {
+        width: 17%;
+    }
+}
+
+
+@media screen and (min-width: 2600px) {
+    header .button .btn-default {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 3100px) {
+    header .button .btn-default {
+        width: 12%;
+    }
+}
