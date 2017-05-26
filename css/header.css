@@ -8,6 +8,11 @@ header {
     color: white;
 }
 
+@media screen and (max-width: 1366px) {
+    header {
+        height: 696px;
+    }
+}
 
 header .head_background {
     display: flex;
@@ -24,7 +29,8 @@ header .head_background .lg-grid {
     justify-content: space-between;
 }
 
-header .head_background .lg-grid button {
+header .head_background .lg-grid .left, 
+header .head_background .lg-grid .right {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -41,6 +47,13 @@ header .head_background .left {
 header .head_background .right {
     background: url("../static/pic/RIGHT_BUTTON_LINK.png") no-repeat;
     background-size: contain;
+}
+
+@media screen and (max-width: 1366px) {
+    header .head_background .left, 
+    header .head_background .right {
+        /*margin-top: 18px;*/
+    }
 }
 
 header .head_background .md-grid {
@@ -81,17 +94,45 @@ header .head_top ul li:last-child {
 header .center-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    height: 167px;
+    margin-top: 27px;
 }
 
 header .center-content h1 {
     font-size: 3em;
+    line-height: 0.85em;
 }
 
 header .center-content .text {
     font-size: 1.76em;
+    line-height: 1em;
 }
 
+
+header .center-content .shop_bikes {
+    background-color: black;
+    width: 11.5%;
+    min-height: 30px;
+    text-align: center;
+    padding: 10px auto;
+    border-radius: 10px;
+    border: none;
+}
+
+
+header .bicycle_download {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background: url(../static/pic/Scroll_icon_active.png) no-repeat;
+    background-size: contain;
+    width: 6%;
+    height: 78px;
+    border: none;
+    margin-bottom: 34px;
+    
+}
 
 

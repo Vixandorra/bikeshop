@@ -12,12 +12,6 @@ html, body {
 }
 
 
-@supports (display: grid) {
-    .grid {
-        display: grid;
-    }
-}
-
 .lg-grid {
     display: flex;
     width: 97.60416666666667%;
@@ -30,12 +24,25 @@ html, body {
     margin: 0 auto;
 }
 
+.col-lg-7, .col-lg-12 {
+    padding: 0;
+}
+
 .red_color {
     color: #f10e34;
 }
 
 .green {
     color: #fcff19;
+}
+
+.grey_btn {
+    background: grey;
+    color: white;
+}
+
+.btn-default {
+    border-radius: 10px !important;
 }
 
 @font-face {

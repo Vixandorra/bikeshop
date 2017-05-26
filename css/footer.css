@@ -2,9 +2,124 @@ footer {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    min-height: 400px;
+    justify-content: space-between;
+    min-height: 700px;
     color: #ffffff;
     margin: 0 !important;
     width: 100%;
+}
+
+footer .contact_us {
+    min-height: 633px;
+    width: 100%;
+    background: url("../static/pic/CONTACT_US_BG.png") no-repeat;
+}
+
+footer .contact_us .lg-grid {
+    display: flex;
+    flex-direction: column;
+    min-height: 520px;
+    margin-top: 52px;
+}
+
+footer .contact_us .sm-grid {
+    width: 24.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+footer .contact_us h1 {
+    font-size: 1.6em;
+    line-height: 2em;
+    margin-bottom: 40px;
+}
+
+footer .contact_us .text {
+    margin-bottom: 27px;
+}
+
+footer .contact_us h1,
+footer .contact_us .text {
+    text-align: center;
+    color: black;
+}
+
+footer .contact_us .form-group input,
+footer .contact_us .form-group textarea,
+footer .contact_us button {
+    min-height: 42px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+footer .contact_us .form-group textarea {
+    margin-bottom: 24px;
+}
+
+footer .contact_us button {
+    font-style: normal;
+}
+
+footer .contact_us .form-group:nth-child(1),
+footer .contact_us .form-group:nth-child(2) {
+    margin-bottom: 0;
+}
+
+footer .contact_us #name,
+footer .contact_us #surname  {
+    display: inline-flex;
+    width: 47%;
+    margin-bottom: 22px;
+}
+
+footer .contact_us #name {
+    float: left;
+}
+
+footer .contact_us #surname {
+    float: right;
+}
+
+footer .contact_us #submit {
+    width: 100%;
+    background-color: #b7b7b7;
+    color: #ffffff;
+    border: none;
+}
+
+footer .yellow_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70px;
+    background-color: #fcff19;
+}
+
+footer .yellow_footer .md-grid {
+    justify-content: space-between;
+}
+
+footer .yellow_footer ul {
+    display: inline-flex;
+    justify-content: flex-end;
+    font-size: 0.95em;
+}
+
+footer .yellow_footer ul li {
+    display: inline-block;
+    margin: 21px 18px;
+}
+
+footer .yellow_footer a {
+    color: black;
+}
+
+footer .logo {
+    margin-top: 11px;
+    height: 37px;
+    width: 17%;
+    background: url(../static/pic/THE-BIKE-SHOP1.png) no-repeat;
+    background-size: contain;
 }

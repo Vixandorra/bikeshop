@@ -2,8 +2,183 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #f3f3f3;
+    /*background: #f3f3f3;*/
     width: auto;
-    min-height: 2050px;
+    /* min-height: 2050px; */
 }
+
+main .categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 628px;
+    background: url("../static/pic/CATEGORIES_BG_IMAGE.png") no-repeat;
+    background-size: 100%;
+}
+
+main .categories .md-grid {
+    flex-direction: column;
+    height: 486px;
+}
+
+main .categories h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 66px;
+    font-size: 1.7em;
+}
+
+main .categories ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 288px;
+
+}
+
+main .categories ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    margin-right: 1.6%;
+}
+
+main .categories ul li:not(:first-child) {
+    margin-left: 10px;
+}
+
+main .categories ul li:first-child {
+    background: url("../static/pic/CATEGORIES_PHOTO_01.png") no-repeat;
+    background-size: cover;
+}
+
+main .categories ul li:nth-child(2) {
+    background: url("../static/pic/CATEGORIES_PHOTO_02.png") no-repeat;
+    background-size: cover;
+}
+
+main .categories ul li:last-child {
+    background: url("../static/pic/CATEGORIES_PHOTO_03.png") no-repeat;
+    background-size: cover;
+}
+
+main .categories ul li a {
+    display: flex;
+    height: 44px;
+    margin-top: 34px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .categories ul li:nth-child(2) a {
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+
+main .categories ul li:nth-child(2) button {
+    width: 37%;
+    border-radius: 10px;
+    border: white 2px solid;
+    color: white;
+    background: none;
+}
+
+main .categories ul li a h1 {
+    font-size: 0.95em;
+    margin: 0;
+}
+
+main .popular_bikes {
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .popular_bikes .lg-grid {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 475px;
+}
+
+main .popular_bikes .bikes_head {
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: -10px;
+}
+
+main .popular_bikes .bikes_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 370px;
+}
+
+main .popular_bikes .bikes_list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+main .popular_bikes .bikes_list li:not(:last-child) {
+    margin-right: 10%;
+}
+
+main .popular_bikes .bikes_list .col-lg-4 {
+    padding: 0;
+}
+
+main .popular_bikes .bikes_list li .image {
+    width: 100%;
+    min-height: 350px;
+    margin-bottom: 20px;
+}
+
+main .popular_bikes .bikes_list li:nth-child(1) .image {
+    background: url("../static/pic/ITEM_PHOTO.png") 0% 79% no-repeat;
+    background-size: inherit;
+}
+
+main .popular_bikes .bikes_list li:nth-child(2) .image {
+    background: url("../static/pic/ITEM_PHOTO2.png") 50% 79% no-repeat;
+    background-size: inherit;
+}
+
+main .popular_bikes .bikes_list li:nth-child(3) .image {
+    background: url("../static/pic/ITEM_PHOTO1.png") 79% 79% no-repeat;
+    background-size: inherit;
+}
+
+main .popular_bikes .bikes_list li .bottom {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+main .popular_bikes .bikes_list li .bottom .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+
+main .popular_bikes .bikes_list li .bottom .right button {
+    min-height: 43px;
+    margin: 0;
+}
+
+main .popular_bikes .bikes_list li .bottom .right .dropdown-toggle {
+    padding: 5px 50px;
+}
+
+main .popular_bikes .bikes_list li .bottom .right .grey_btn {
+    margin-left: 60px;
+}
+
 
